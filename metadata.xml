@@ -1,0 +1,24 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="http://http://dubn34057995a.emea.global.corp.sap/" validUntil="2018-09-11T14:51:13.460Z">
+<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+AAAAB3NzaC1yc2EAAAABJQAAAQEAgyyUWILtrmSfkX4rxftqiMmIon2D8hNRgE6jEFwrOWInXjazhYUN/h7y0GSj8PQlpN3zf8JBircvILZoZ94+2QKkJ1goqFgkCxVI1ATWyUE2/vFJ05BTWdw3AAZz9yy42RyanfXFaUhS1DpGt5eY7eRWICWoAvcYd1Xm2EQWqqRNvFx5sD2LVWUt7wqKnMyOwLDZVnZAJCUueK205GmMWH3mhK1gqUEtrrpReeuQC0b3HFxTvD7JquH7C72AYFTQDfGojRPMEMCcRNafNha3jDU6YEJmpLp8Jd6fi71CnHBFNuYcskc39oeORm20LtQeoKcgc1Wp3LuagiqrKNjtlw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+AAAAB3NzaC1yc2EAAAABJQAAAQEAgyyUWILtrmSfkX4rxftqiMmIon2D8hNRgE6jEFwrOWInXjazhYUN/h7y0GSj8PQlpN3zf8JBircvILZoZ94+2QKkJ1goqFgkCxVI1ATWyUE2/vFJ05BTWdw3AAZz9yy42RyanfXFaUhS1DpGt5eY7eRWICWoAvcYd1Xm2EQWqqRNvFx5sD2LVWUt7wqKnMyOwLDZVnZAJCUueK205GmMWH3mhK1gqUEtrrpReeuQC0b3HFxTvD7JquH7C72AYFTQDfGojRPMEMCcRNafNha3jDU6YEJmpLp8Jd6fi71CnHBFNuYcskc39oeORm20LtQeoKcgc1Wp3LuagiqrKNjtlw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://http://dubn34057995a.emea.global.corp.sap/assert"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://http://dubn34057995a.emea.global.corp.sap/assert" index="0"/>
+</md:SPSSODescriptor>
+</md:EntityDescriptor>
